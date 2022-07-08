@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Noti</title>
+	<link rel="stylesheet" type="text/css" href="o.css">
+</head>
+<body>
+<div id="hn">
+	<h1 id="hl">Noti</h1>
+</div>
+<div id="bn">
+	<h1 id="bh">
+		Noti
+	</h1>
+	<hr>
+	<form>
+		<p id="eye">Enter the word<br></p>
+		<input type="text" name="" id="io"><br>
+		<input type="button" name="" id="btn" onclick="uj()" value="Calculate letter" >
+	</form>
+	<hr>
+	<div id="rb">
+		<h1 id="rl">Word</h1>
+	</div>
+	</div>
+	<script type="text/javascript">
+		function uj() {
+			var ti=document.getElementById('io').value;
+			document.getElementById('rl').innerText='This word has '+ti.length + ' letters';
+}
+uj()
+	</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+#hn{
+	background-color: grey;
+	height: 52px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#hl{
+	color: white;
+	padding: 5px;
+	margin: 0px;
+	
+	text-align: left;
+}
+#bn{
+	background-color: blue;
+	width: 850px;
+	height: 450px;
+	position: absolute;
+	top: 100px;
+	left: 250px;
+}
+#bh{
+	color: hotpink;
+	padding: 5px;
+	margin: 0px;
+	text-align: center;
+}
+#eye{
+	color: red;
+	font-size: 25px;
+	padding: 5px;
+	margin: 0px;
+}
+#io{
+	padding: 5px;
+	margin: 0px;
+}
+#btn{
+	color: blue;
+	background-color: yellow;
+	padding: 25px;
+	margin: 0px;
+	
+	width: 250px;
+	height: 20px;
+	position: absolute;
+	top: 150px;
+}
+#rb{
+	background-color: purple;
+	width: 850px;
+	height: 150px;
+	position: absolute;
+	top: 338px;
+}
+#rl{
+	color: orangered;
+}
